@@ -6,7 +6,7 @@
 
 在我们使用 Python 编码和解码 JSON 之前，我们需要安装一个可用 JSON 模块。对于本教程请按照如下方式下载和安装 [Demjson](http://deron.meranda.us/python/demjson/)：
 
-```shell
+```
 $tar xvfz demjson-1.6.tar.gz
 $cd demjson-1.6
 $python setup.py install
@@ -39,7 +39,7 @@ Python 的 encode() 函数用于将 Python 对象编码为 JSON 字符串表示�
 
 __语法：__
 
-```python
+```
 demjson.encode(self, obj, nest_level=0)
 ```
 
@@ -47,7 +47,7 @@ __示例：__
 
 下面的例子展示了使用 Python 将数组转换为 JSON：
 
-```python
+```
 #!/usr/bin/python
 import demjson
 
@@ -59,7 +59,7 @@ print json
 
 执行时会生成如下所示结果：
 
-```shell
+```
 [{"a":1,"b":2,"c":3,"d":4,"e":5}]
 ```
 
@@ -69,7 +69,7 @@ Python 可以使用 demjson.decode() 函数处理 JSON 解码。这个函数返�
 
 __语法：__
 
-```python
+```
 demjson.decode(self, txt)
 ```
 
@@ -77,7 +77,7 @@ __示例：__
 
 下面的例子展示了如何使用 Python 解码 JSON 对象。
 
-```python
+```
 #!/usr/bin/python
 import demjson
 
@@ -89,6 +89,6 @@ print text
 
 执行时生成如下所示结果：
 
-```shell
+```
 {u'a': 1, u'c': 3, u'b': 2, u'e': 5, u'd': 4}
 ```

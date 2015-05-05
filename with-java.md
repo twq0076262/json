@@ -51,7 +51,7 @@ JSON.simple 实体映射从左侧到右侧为解码或解析，实体映射从�
 
 下面这个简单的示例展示了使用 java.util.HashMap 的子类 JSONObject 编码一个 JSON 对象。这里并没有提供顺序。如果你需要严格的元素顺序，请使用 JSONValue.toJSONString(map) 方法的有序映射实现，比如 java.util.LinkedHashMap。
 
-```java
+```
 import org.json.simple.JSONObject;
 
 class JsonEncodeDemo 
@@ -72,13 +72,14 @@ class JsonEncodeDemo
 
 编译和执行上面的程序时，会生成如下所示结果：
 
-```shell
+```
 {"balance": 1000.21, "num":100, "is_vip":true, "name":"foo"}
 ```
 
 下面是另一个示例，使用 Java JSONObject 展示了 JSON 对象流：
 
-```java
+```
+java
 import org.json.simple.JSONObject;
 class JsonEncodeDemo
 {
@@ -101,7 +102,7 @@ class JsonEncodeDemo
 
 编译和执行上面的程序时，会生成如下所示结果：
 
-```shell
+```
 {"balance": 1000.21, "num":100, "is_vip":true, "name":"foo"}
 ```
 
@@ -109,7 +110,7 @@ class JsonEncodeDemo
 
 下面的例子使用了 __JSONObject__ 和 __JSONArray__，其中 JSONObject 就是 java.util.Map，JSONArray 就是 java.util.List，因此我们可以使用 Map 或 List 的标准操作访问它们。
 
-```java
+```
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.ParseException;
@@ -152,7 +153,7 @@ class JsonDecodeDemo
 
 编译和执行上面的程序时，会生成如下所示结果：
 
-```shell
+```
 The 2nd element of array
 {"1":{"2":{"3":{"4":[5,{"6":7}]}}}}
 

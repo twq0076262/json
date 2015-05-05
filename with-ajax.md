@@ -13,7 +13,7 @@ AJAX 就是异步 JavaScript 和 XML，它是一组在客户端创建异步 Web 
 
 下面的代码展示了 JSON 和 AJAX，请把它们保存为 __ajax.htm__ 文件。这里的加载函数 loadJSON() 将会使用异步的方式上传 JSON 数据。
 
-```html
+```
 <head>
 <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
 <script type="application/javascript">
@@ -69,7 +69,7 @@ function loadJSON()
 
 下面就是包含 JSON 格式数据的输入文件 __data.json__，当我们点击 __Update Detail__ 按钮时会以异步的方式上传它。这个文件已经保存到 [http://www.tutorialspoint.com/json/](http://www.tutorialspoint.com/json/) 上了。
 
-```javascript
+```
 {"name": "brett", "country": "Australia"}
 ```
 

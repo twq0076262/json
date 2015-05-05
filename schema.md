@@ -101,7 +101,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 
 下面是一个基本的 JSON 模式，其中涵盖了一个经典的产品目录说明：
 
-```javascript
+```
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
 	"title": "Product",
@@ -256,7 +256,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 
 可以在 [http://json-schema.org](http://json-schema.org/latest/json-schema-validation.html) 上检出可用于定义 JSON 模式的完整关键字列表。上面的模式可用于测试下面给出的 JSON 代码的有效性：
 
-```javascript
+```
 [
 	{
 		"id": 2,

@@ -28,7 +28,7 @@ JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放
 
 鉴于书籍数据有语言和版本信息，下面的例子展示了使用 JSON 存储书籍信息：
 
-```json
+```
 {
 	"book": [
 		{
@@ -48,7 +48,7 @@ JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放
 
 理解上述程序之后我们来看另外一个例子，让我们把下面的代码保存为 __json.htm__：
 
-```html
+```
 <html>
 <head>
 <title>JSON example</title>

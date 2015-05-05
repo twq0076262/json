@@ -6,7 +6,7 @@
 
 在我们使用 Ruby 编码和解码 JSON 之前，我们需要安装一个可用于 Ruby 的 JSON 模块。你可能需要安装 Ruby gem，如果你使用的是最新版的 Ruby，那么你必须在你的机器上安装 gem，安装好 gem 之后遵循下面这个步骤：
 
-```shell
+```
 $gem install json
 ```
 
@@ -14,7 +14,7 @@ $gem install json
 
 下面的例子展示了前 2 个键持有字符串值，最后 3 个键持有字符串数组。我们把下面的内容保存为叫做 __input.json__ 的文件。
 
-```javascript
+```
 {
 	"President": "Alan Isaac",
 	"CEO": "David Richardson",
@@ -38,7 +38,7 @@ $gem install json
 
 下面是用于解析上述 JSON 文档的 Ruby 程序：
 
-```ruby
+```
 #!/usr/bin/ruby
 require 'rubygems'
 require 'json'
@@ -52,7 +52,7 @@ pp obj
 
 执行时生成如下所示结果：
 
-```shell
+```
 {
 	"President"=>"Alan Isaac",
 	"CEO"=>"David Richardson",
