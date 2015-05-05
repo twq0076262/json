@@ -51,7 +51,7 @@ PHP 的 json_encode() 函数用于在 PHP 中编码 JSON。编码成功时这个
 
 __语法：__
 
-```php
+```
 string json_encode ( $value [, $options = 0 ] )
 ```
 
@@ -64,7 +64,7 @@ __示例：__
 
 下面的例子展示了如何使用 PHP 将一个数组转换为 JSON：
 
-```php
+```
 <?php
 	$arr = array('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5);
 	echo json_encode($arr);
@@ -73,13 +73,13 @@ __示例：__
 
 执行时会生成如下结果：
 
-```shell
+```
 {"a":1,"b":2,"c":3,"d":4,"e":5}
 ```
 
 下面的例子展示了 PHP 对象也可以被转换为 JSON：
 
-```php
+```
 <?php
 	class Emp {
 		public $name = "";
@@ -97,7 +97,7 @@ __示例：__
 
 执行时会生成如下所示结果：
 
-```shell
+```
 {"name":"sachin","hobbies":"sports","birthdate":"08\/05\/1974 12:20:03 pm"}
 ```
 
@@ -107,7 +107,7 @@ PHP 的 json-decode() 函数用于在 PHP 中解码 JSON。这个函数返回从
 
 __语法：__
 
-```php
+```
 mixed json_decode ($json [,$assoc = false [, $depth = 512 [, $options = 0 ]]])
 ```
 
@@ -122,7 +122,7 @@ __示例：__
 
 下面例子展示了 如何使用 PHP 解码 JSON 对象：
 
-```php
+```
 <?php
 	$json = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
 
@@ -133,7 +133,7 @@ __示例：__
 
 执行时生成如下所示结果：
 
-```shell
+```
 object(stdClass)#1 (5) {
 	["a"] => int(1)
 	["b"] => int(2)

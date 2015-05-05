@@ -6,7 +6,7 @@
 
 在开始使用 Perl 编码和解码 JSON 之前，我们需要安装 JSON 模块，可以从 CPAN 中获取。下载 JSON-2.53.tar.gz 或者其他任意最新版本之后遵循以下步骤：
 
-```shell
+```
 $tar xvfz JSON-2.53.tar.gz
 $cd JSON-2.53
 $perl Makefile.PL
@@ -53,7 +53,7 @@ Perl 的 encode_json() 函数可以将给定的 Perl 数据结构转换为 UTF-8
 
 __语法：__
 
-```perl
+```
 $json_text = encode_json ($perl_scalar );
 or
 $json_text = JSON->new->utf8->encode($perl_scalar);
@@ -63,7 +63,7 @@ __示例：__
 
 下面的例子展示了使用 Perl 将数组转换为 JSON：
 
-```perl
+```
 #!/usr/bin/perl
 use JSON;
 my %rec_hash = ('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5);
@@ -73,13 +73,13 @@ print "$json\n";
 
 执行时生成如下所示结果：
 
-```shell
+```
 {"e":5,"c":3,"a":1,"b":2,"d":4}
 ```
 
 下面的例子展示了如何将 Perl 对象转换为 JSON：
 
-```perl
+```
 #!/usr/bin/perl
 package Emp;
 sub new
@@ -107,7 +107,7 @@ print "$json\n";
 
 执行时生成如下所示结果：
 
-```shell
+```
 {"birthdate":"8/5/1974 12:20:03 pm","name":"sachin","hobbies":"sports"}
 ```
 
@@ -117,7 +117,7 @@ Perl 的 decode_json() 函数用于在 Perl 中解码 JSON。这个函数返回�
 
 __语法：__
 
-```perl
+```
 $perl_scalar = decode_json $json_text
 or
 $perl_scalar = JSON->new->utf8->decode($json_text)
@@ -127,7 +127,7 @@ __示例：__
 
 下面的例子展示了如何使用 Perl 解码 JSON 对象。如果你的机器上没有 Data::Dumper 模块那么你需要安装这个模块。
 
-```perl
+```
 #!/usr/bin/perl
 use JSON;
 use Data::Dumper;
@@ -140,7 +140,7 @@ print Dumper($text);
 
 执行时生成如下所示结果：
 
-```shell
+```
 $VAR1 = {
 	'e' => 5,
 	'c' => 3,

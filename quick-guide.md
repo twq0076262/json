@@ -28,7 +28,7 @@ JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放
 
 鉴于书籍数据有语言和版本信息，下面的例子展示了使用 JSON 存储书籍信息：
 
-```json
+```
 {
 	"book": [
 		{
@@ -48,7 +48,7 @@ JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放
 
 理解上述程序之后我们来看另外一个例子，让我们把下面的代码保存为 __json.htm__：
 
-```html
+```
 <html>
 <head>
 <title>JSON example</title>
@@ -91,7 +91,7 @@ JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放
 
 下面是一个简单的示例：
 
-```json
+```
 {
 	"book": [
 		{
@@ -194,7 +194,7 @@ JSON 格式支持以下数据类型
 
 __语法：__
 
-```javascript
+```
 var json-object-name = { string : number_value, .......}
 ```
 
@@ -202,7 +202,7 @@ __示例：__
 
 下面的示例展示了数字类型，其值不应该使用引号包裹：
 
-```javascript
+```
 var obj = {marks: 97}
 ```
 
@@ -232,7 +232,7 @@ var obj = {marks: 97}
 
 __语法：__
 
-```javascript
+```
 var json-object-name = { string : "string value", .......}
 ```
 
@@ -240,7 +240,7 @@ __示例：__
 
 下面的示例展示了字符串数据类型：
 
-```javascript
+```
 var obj = {name: 'Amit'}
 ```
 
@@ -250,13 +250,13 @@ var obj = {name: 'Amit'}
 
 __语法：__
 
-```javascript
+```
 var json-object-name = { string : true/false, .......}
 ```
 
 __示例：__
 
-```javascript
+```
 var obj = {name: 'Amit', marks: 97, distinction: true}
 ```
 
@@ -278,7 +278,7 @@ __示例：__
 
 下面的示例展示了一个包含多个对象的数组：
 
-```javascript
+```
 {
 	"books": [
 		{ "language":"Java" , "edition":"second" },
@@ -306,7 +306,7 @@ __示例：__
 
 下面的例子展示了对象：
 
-```javascript
+```
 {
 	"id": "011A",
 	"language": "JAVA",
@@ -326,7 +326,7 @@ __语法：__
 
 __示例：__
 
-```javascript
+```
 var i= "   sachin";
 var j = "  saurav"
 ```
@@ -337,13 +337,13 @@ var j = "  saurav"
 
 __语法：__
 
-```javascript
+```
 null
 ```
 
 __示例：__
 
-```javascript
+```
 var i = null;
 
 if(i==1) {
@@ -372,7 +372,7 @@ String | Number | Object | Array | TRUE | FALSE | NULL
 
 __示例：__
 
-```javascript
+```
 var i =1;
 var j = "sachin";
 var k = null;
@@ -386,25 +386,25 @@ JSON 对象可以使用 JavaScript 创建。我们来看看使用 JavaScript 创
 
 - 创建一个空对象：
 
-```javascript
+```
 var JSONObj = {};
 ```
 
 - 创建一个新对象：
 
-```javascript
+```
 var JSONObj = new Object();
 ```
 
 - 创建一个 __bookname__ 属性值为字符串，__price__属性值为数字的对象。可以通过使用 '.' 运算符访问属性。
 
-```javascript
+```
 var JSONObj = { "bookname ":"VB BLACK BOOK", "price":500 };
 ```
 
 这里有一个例子，展示了在 JavaScript 中使用 JSON 创建对象，可以将下面的代码保存为 __json_object.htm__：
 
-```html
+```
 <html>
 <head>
 <title>Creating Object JSON with JavaScript</title>
@@ -431,7 +431,7 @@ var JSONObj = { "bookname ":"VB BLACK BOOK", "price":500 };
 
 下面的例子展示了在 JavaScript 中使用 JSON 创建数组对象，可以将下面的代码保存为 __json_array_object.htm__：
 
-```html
+```
 <html>
 <head>
 <title>Creation of array object in javascript using JSON</title>
@@ -590,7 +590,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 
 下面是一个基本的 JSON 模式，其中涵盖了一个经典的产品目录说明：
 
-```javascript
+```
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
 	"title": "Product",
@@ -745,7 +745,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 
 可以在 [http://json-schema.org](http://json-schema.org/latest/json-schema-validation.html) 上检出可用于定义 JSON 模式的完整关键字列表。上面的模式可用于测试下面给出的 JSON 代码的有效性：
 
-```javascript
+```
 [
 	{
 		"id": 2,
@@ -782,7 +782,7 @@ XML 被用来描述结构化数据，不包含数组；而 JSON 包含数组。
 
 __JSON：__
 
-```javascript
+```
 {
 	"company": Volkswagen,
 	"name": "Vento",
@@ -792,7 +792,7 @@ __JSON：__
 
 __XML：__
 
-```xml
+```
 <car>
    <company>Volkswagen</company>
    <name>Vento</name>
@@ -853,7 +853,7 @@ PHP 的 json_encode() 函数用于在 PHP 中编码 JSON。编码成功时这个
 
 __语法：__
 
-```php
+```
 string json_encode ( $value [, $options = 0 ] )
 ```
 
@@ -866,7 +866,7 @@ __示例：__
 
 下面的例子展示了如何使用 PHP 将一个数组转换为 JSON：
 
-```php
+```
 <?php
 	$arr = array('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5);
 	echo json_encode($arr);
@@ -875,13 +875,13 @@ __示例：__
 
 执行时会生成如下结果：
 
-```shell
+```
 {"a":1,"b":2,"c":3,"d":4,"e":5}
 ```
 
 下面的例子展示了 PHP 对象也可以被转换为 JSON：
 
-```php
+```
 <?php
 	class Emp {
 		public $name = "";
@@ -899,7 +899,7 @@ __示例：__
 
 执行时会生成如下所示结果：
 
-```shell
+```
 {"name":"sachin","hobbies":"sports","birthdate":"08\/05\/1974 12:20:03 pm"}
 ```
 
@@ -909,7 +909,7 @@ PHP 的 json-decode() 函数用于在 PHP 中解码 JSON。这个函数返回从
 
 __语法：__
 
-```php
+```
 mixed json_decode ($json [,$assoc = false [, $depth = 512 [, $options = 0 ]]])
 ```
 
@@ -924,7 +924,7 @@ __示例：__
 
 下面例子展示了 如何使用 PHP 解码 JSON 对象：
 
-```php
+```
 <?php
 	$json = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
 
@@ -935,7 +935,7 @@ __示例：__
 
 执行时生成如下所示结果：
 
-```shell
+```
 object(stdClass)#1 (5) {
 	["a"] => int(1)
 	["b"] => int(2)
@@ -961,7 +961,7 @@ array(5) {
 
 在开始使用 Perl 编码和解码 JSON 之前，我们需要安装 JSON 模块，可以从 CPAN 中获取。下载 JSON-2.53.tar.gz 或者其他任意最新版本之后遵循以下步骤：
 
-```shell
+```
 $tar xvfz JSON-2.53.tar.gz
 $cd JSON-2.53
 $perl Makefile.PL
@@ -1008,7 +1008,7 @@ Perl 的 encode_json() 函数可以将给定的 Perl 数据结构转换为 UTF-8
 
 __语法：__
 
-```perl
+```
 $json_text = encode_json ($perl_scalar );
 or
 $json_text = JSON->new->utf8->encode($perl_scalar);
@@ -1018,7 +1018,7 @@ __示例：__
 
 下面的例子展示了使用 Perl 将数组转换为 JSON：
 
-```perl
+```
 #!/usr/bin/perl
 use JSON;
 my %rec_hash = ('a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5);
@@ -1028,13 +1028,13 @@ print "$json\n";
 
 执行时生成如下所示结果：
 
-```shell
+```
 {"e":5,"c":3,"a":1,"b":2,"d":4}
 ```
 
 下面的例子展示了如何将 Perl 对象转换为 JSON：
 
-```perl
+```
 #!/usr/bin/perl
 package Emp;
 sub new
@@ -1062,7 +1062,7 @@ print "$json\n";
 
 执行时生成如下所示结果：
 
-```shell
+```
 {"birthdate":"8/5/1974 12:20:03 pm","name":"sachin","hobbies":"sports"}
 ```
 
@@ -1072,7 +1072,7 @@ Perl 的 decode_json() 函数用于在 Perl 中解码 JSON。这个函数返回�
 
 __语法：__
 
-```perl
+```
 $perl_scalar = decode_json $json_text
 or
 $perl_scalar = JSON->new->utf8->decode($json_text)
@@ -1082,7 +1082,7 @@ __示例：__
 
 下面的例子展示了如何使用 Perl 解码 JSON 对象。如果你的机器上没有 Data::Dumper 模块那么你需要安装这个模块。
 
-```perl
+```
 #!/usr/bin/perl
 use JSON;
 use Data::Dumper;
@@ -1095,7 +1095,7 @@ print Dumper($text);
 
 执行时生成如下所示结果：
 
-```shell
+```
 $VAR1 = {
 	'e' => 5,
 	'c' => 3,
@@ -1113,7 +1113,7 @@ $VAR1 = {
 
 在我们使用 Python 编码和解码 JSON 之前，我们需要安装一个可用 JSON 模块。对于本教程请按照如下方式下载和安装 [Demjson](http://deron.meranda.us/python/demjson/)：
 
-```shell
+```
 $tar xvfz demjson-1.6.tar.gz
 $cd demjson-1.6
 $python setup.py install
@@ -1146,7 +1146,7 @@ Python 的 encode() 函数用于将 Python 对象编码为 JSON 字符串表示�
 
 __语法：__
 
-```python
+```
 demjson.encode(self, obj, nest_level=0)
 ```
 
@@ -1154,7 +1154,7 @@ __示例：__
 
 下面的例子展示了使用 Python 将数组转换为 JSON：
 
-```python
+```
 #!/usr/bin/python
 import demjson
 
@@ -1166,7 +1166,7 @@ print json
 
 执行时会生成如下所示结果：
 
-```shell
+```
 [{"a":1,"b":2,"c":3,"d":4,"e":5}]
 ```
 
@@ -1176,7 +1176,7 @@ Python 可以使用 demjson.decode() 函数处理 JSON 解码。这个函数返�
 
 __语法：__
 
-```python
+```
 demjson.decode(self, txt)
 ```
 
@@ -1184,7 +1184,7 @@ __示例：__
 
 下面的例子展示了如何使用 Python 解码 JSON 对象。
 
-```python
+```
 #!/usr/bin/python
 import demjson
 
@@ -1196,7 +1196,7 @@ print text
 
 执行时生成如下所示结果：
 
-```shell
+```
 {u'a': 1, u'c': 3, u'b': 2, u'e': 5, u'd': 4}
 ```
 
@@ -1208,7 +1208,7 @@ print text
 
 在我们使用 Ruby 编码和解码 JSON 之前，我们需要安装一个可用于 Ruby 的 JSON 模块。你可能需要安装 Ruby gem，如果你使用的是最新版的 Ruby，那么你必须在你的机器上安装 gem，安装好 gem 之后遵循下面这个步骤：
 
-```shell
+```
 $gem install json
 ```
 
@@ -1216,7 +1216,7 @@ $gem install json
 
 下面的例子展示了前 2 个键持有字符串值，最后 3 个键持有字符串数组。我们把下面的内容保存为叫做 __input.json__ 的文件。
 
-```javascript
+```
 {
 	"President": "Alan Isaac",
 	"CEO": "David Richardson",
@@ -1240,7 +1240,7 @@ $gem install json
 
 下面是用于解析上述 JSON 文档的 Ruby 程序：
 
-```ruby
+```
 #!/usr/bin/ruby
 require 'rubygems'
 require 'json'
@@ -1254,7 +1254,7 @@ pp obj
 
 执行时生成如下所示结果：
 
-```shell
+```
 {
 	"President"=>"Alan Isaac",
 	"CEO"=>"David Richardson",
@@ -1323,7 +1323,7 @@ JSON.simple 实体映射从左侧到右侧为解码或解析，实体映射从�
 
 下面这个简单的示例展示了使用 java.util.HashMap 的子类 JSONObject 编码一个 JSON 对象。这里并没有提供顺序。如果你需要严格的元素顺序，请使用 JSONValue.toJSONString(map) 方法的有序映射实现，比如 java.util.LinkedHashMap。
 
-```java
+```
 import org.json.simple.JSONObject;
 
 class JsonEncodeDemo 
@@ -1344,13 +1344,13 @@ class JsonEncodeDemo
 
 编译和执行上面的程序时，会生成如下所示结果：
 
-```shell
+```
 {"balance": 1000.21, "num":100, "is_vip":true, "name":"foo"}
 ```
 
 下面是另一个示例，使用 Java JSONObject 展示了 JSON 对象流：
 
-```java
+```
 import org.json.simple.JSONObject;
 class JsonEncodeDemo
 {
@@ -1373,7 +1373,7 @@ class JsonEncodeDemo
 
 编译和执行上面的程序时，会生成如下所示结果：
 
-```shell
+```
 {"balance": 1000.21, "num":100, "is_vip":true, "name":"foo"}
 ```
 
@@ -1381,7 +1381,7 @@ class JsonEncodeDemo
 
 下面的例子使用了 __JSONObject__ 和 __JSONArray__，其中 JSONObject 就是 java.util.Map，JSONArray 就是 java.util.List，因此我们可以使用 Map 或 List 的标准操作访问它们。
 
-```java
+```
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.ParseException;
@@ -1424,7 +1424,7 @@ class JsonDecodeDemo
 
 编译和执行上面的程序时，会生成如下所示结果：
 
-```shell
+```
 The 2nd element of array
 {"1":{"2":{"3":{"4":[5,{"6":7}]}}}}
 
@@ -1450,7 +1450,7 @@ AJAX 就是异步 JavaScript 和 XML，它是一组在客户端创建异步 Web 
 
 下面的代码展示了 JSON 和 AJAX，请把它们保存为 __ajax.htm__ 文件。这里的加载函数 loadJSON() 将会使用异步的方式上传 JSON 数据。
 
-```html
+```
 <head>
 <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
 <script type="application/javascript">
@@ -1506,7 +1506,7 @@ function loadJSON()
 
 下面就是包含 JSON 格式数据的输入文件 __data.json__，当我们点击 __Update Detail__ 按钮时会以异步的方式上传它。这个文件已经保存到 [http://www.tutorialspoint.com/json/](http://www.tutorialspoint.com/json/) 上了。
 
-```javascript
+```
 {"name": "brett", "country": "Australia"}
 ```
 

@@ -6,25 +6,25 @@ JSON 对象可以使用 JavaScript 创建。我们来看看使用 JavaScript 创
 
 - 创建一个空对象：
 
-```javascript
+```
 var JSONObj = {};
 ```
 
 - 创建一个新对象：
 
-```javascript
+```
 var JSONObj = new Object();
 ```
 
 - 创建一个 __bookname__ 属性值为字符串，__price__属性值为数字的对象。可以通过使用 '.' 运算符访问属性。
 
-```javascript
+```
 var JSONObj = { "bookname ":"VB BLACK BOOK", "price":500 };
 ```
 
 这里有一个例子，展示了在 JavaScript 中使用 JSON 创建对象，可以将下面的代码保存为 __json_object.htm__：
 
-```html
+```
 <html>
 <head>
 <title>Creating Object JSON with JavaScript</title>
@@ -51,7 +51,7 @@ var JSONObj = { "bookname ":"VB BLACK BOOK", "price":500 };
 
 下面的例子展示了在 JavaScript 中使用 JSON 创建数组对象，可以将下面的代码保存为 __json_array_object.htm__：
 
-```html
+```
 <html>
 <head>
 <title>Creation of array object in javascript using JSON</title>

@@ -78,7 +78,7 @@ JSON 格式支持以下数据类型
 
 __语法：__
 
-```javascript
+```
 var json-object-name = { string : number_value, .......}
 ```
 
@@ -86,7 +86,7 @@ __示例：__
 
 下面的示例展示了数字类型，其值不应该使用引号包裹：
 
-```javascript
+```
 var obj = {marks: 97}
 ```
 
@@ -116,7 +116,7 @@ var obj = {marks: 97}
 
 __语法：__
 
-```javascript
+```
 var json-object-name = { string : "string value", .......}
 ```
 
@@ -124,7 +124,7 @@ __示例：__
 
 下面的示例展示了字符串数据类型：
 
-```javascript
+```
 var obj = {name: 'Amit'}
 ```
 
@@ -134,13 +134,13 @@ var obj = {name: 'Amit'}
 
 __语法：__
 
-```javascript
+```
 var json-object-name = { string : true/false, .......}
 ```
 
 __示例：__
 
-```javascript
+```
 var obj = {name: 'Amit', marks: 97, distinction: true}
 ```
 
@@ -162,7 +162,7 @@ __示例：__
 
 下面的示例展示了一个包含多个对象的数组：
 
-```javascript
+```
 {
 	"books": [
 		{ "language":"Java" , "edition":"second" },
@@ -190,7 +190,7 @@ __示例：__
 
 下面的例子展示了对象：
 
-```javascript
+```
 {
 	"id": "011A",
 	"language": "JAVA",
@@ -210,7 +210,7 @@ __语法：__
 
 __示例：__
 
-```javascript
+```
 var i= "   sachin";
 var j = "  saurav"
 ```
@@ -221,13 +221,13 @@ var j = "  saurav"
 
 __语法：__
 
-```javascript
+```
 null
 ```
 
 __示例：__
 
-```javascript
+```
 var i = null;
 
 if(i==1) {
@@ -256,7 +256,7 @@ String | Number | Object | Array | TRUE | FALSE | NULL
 
 __示例：__
 
-```javascript
+```
 var i =1;
 var j = "sachin";
 var k = null;

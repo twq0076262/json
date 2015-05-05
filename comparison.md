@@ -20,7 +20,7 @@ XML 被用来描述结构化数据，不包含数组；而 JSON 包含数组。
 
 __JSON：__
 
-```javascript
+```
 {
 	"company": Volkswagen,
 	"name": "Vento",
@@ -30,7 +30,7 @@ __JSON：__
 
 __XML：__
 
-```xml
+```
 <car>
    <company>Volkswagen</company>
    <name>Vento</name>
