@@ -1,18 +1,18 @@
-- JSON - Basics
-  - [JSON - Home](home.md)
-  - [JSON - Overview](overview.md)
-  - [JSON - Syntax](syntax.md)
-  - [JSON - DataTypes](data-types.md)
-  - [JSON - Objects](objects.md)
-  - [JSON - Schema](schema.md)
-  - [JSON - Comparison](comparison.md)
-- JSON - Examples
-  - [JSON with PHP](with-php.md)
-  - [JSON with Perl](with-perl.md)
-  - [JSON with Python](with-python.md)
-  - [JSON with Ruby](with-ruby.md)
-  - [JSON with Java](with-java.md)
-  - [JSON with Ajax](with-ajax.md)
-- JSON - Examples
-  - [JSON Quick Guide](quick-guide.md)
-  - [JSON Useful Resources](useful-resources.md)
+- JSON 基础
+  - [JSON 教程](home.md)
+  - [JSON 概述](overview.md)
+  - [JSON 语法](syntax.md)
+  - [JSON 数据类型](data-types.md)
+  - [JSON 对象](objects.md)
+  - [JSON 模式](schema.md)
+  - [JSON 与 XML 对比](comparison.md)
+- JSON 示例
+  - [在 PHP 中使用 JSON](with-php.md)
+  - [在 Perl 中使用 JSON](with-perl.md)
+  - [在 Python 中使用 JSON](with-python.md)
+  - [在 Ruby 中使用 JSON](with-ruby.md)
+  - [在 Java 中使用 JSON ](with-java.md)
+  - [JSON 与 Ajax](with-ajax.md)
+- 有用的 JSON 资源
+  - [JSON 快速指南](quick-guide.md)
+  - [有用的 JSON 资源](useful-resources.md)
