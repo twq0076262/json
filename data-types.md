@@ -1,6 +1,6 @@
 # JSON 数据类型
 
-JSON 格式支持以下数据类型
+JSON 格式支持以下数据类型：
 
 <table>
 	<thead>
@@ -102,15 +102,15 @@ var obj = {marks: 97}
 		<tr><th>类型</th><th>描述</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>"</td><td> 双引号 </td></tr>
-		<tr><td>\</td><td> 反斜线 </td></tr>
-		<tr><td>/</td><td> 斜线</td></tr>
-		<tr><td>b</td><td> 推格符 </td></tr>
-		<tr><td>f</td><td> 换页符 </td></tr>
-		<tr><td>n</td><td> 换行符 </td></tr>
-		<tr><td>r</td><td> 回车符 </td></tr>
-		<tr><td>t</td><td> 水平制表符 </td></tr>
-		<tr><td>u</td><td> 四位十六进制数字 </td></tr>
+		<tr><td>"</td><td>双引号</td></tr>
+		<tr><td>\</td><td>反斜线</td></tr>
+		<tr><td>/</td><td>斜线</td></tr>
+		<tr><td>b</td><td>退格符</td></tr>
+		<tr><td>f</td><td>换页符</td></tr>
+		<tr><td>n</td><td>换行符</td></tr>
+		<tr><td>r</td><td>回车符</td></tr>
+		<tr><td>t</td><td>水平制表符</td></tr>
+		<tr><td>u</td><td>四位十六进制数字</td></tr>
 	</tbody>
 </table>
 
@@ -174,7 +174,7 @@ __示例：__
 
 ## 对象
 
-- 一个无序的名/值对集合。
+- 它是一个无序的名/值对集合。
 - 对象使用大括号闭合，以 '{' 开始，以 '}' 结尾。
 - 每个名称后面都跟随一个 ':'（冒号），名/值对使用 ,（逗号）分割。
 - 键名必须是字符串，并且不能同名。

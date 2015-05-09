@@ -1,12 +1,12 @@
 # JSON 教程
 
-JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放标准，被设计用于可读的数据交换。JSON 格式最初由 Douglas Crockford 提出，使用 RFC 4627 描述。JSON 的官方网络媒体类型是 `application/json`。JSON 的文件名扩展是 __.json__。
+JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放标准，被设计用于可读的数据交换。JSON 格式最初由 Douglas Crockford 提出，使用 RFC 4627 描述。JSON 的官方网络媒体类型是 application/json。JSON 的文件名扩展是 __.json__。
 
 本教程会帮助我们了解 JSON 以及如何在各种编程语言，比如 PHP，PERL，Python，Ruby，Java等等编程语言中使用它。
 
 ## 读者
 
-本教程旨在帮助初学者了解 JavaScript 对象表示法（JSON）开发数据交换格式的基本功能。完成本教程之后，你会发现自己处于在JavaScript，AJAX，Perl中使用 JSON 的中等水平，然后你可以自己走向下一个水平。
+本教程旨在帮助初学者了解 JavaScript 对象表示法（JSON）开发数据交换格式的基本功能。完成本教程之后，你会发现自己处于在 JavaScript，AJAX，Perl 中使用 JSON 的中等水平，然后你可以自己提升到下一个水平。
 
 ## 预备知识
 
@@ -28,12 +28,12 @@ JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放
 
 ### 3 - Java 教程
 
-如果你使用 Java，那么这个地方是一个很好的开始。
+如果你使用 Java，那么这是最好的地方。
 
-[Java 教程](http://www.tutorialspoint.com/java/)
+[Java 教程](http://www.tutorialspoint.com/java/index.htm)
 
 ### 4 - PDF 格式的 JSON 教程
 
-下载 PDF 格式的 JSON 教程。
+下载 PDF 格式的 JSON 快速入门教程。
 
 [PDF 格式的 JSON 教程](http://www.tutorialspoint.com/json/json_pdf_version.htm)
