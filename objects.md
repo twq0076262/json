@@ -43,7 +43,7 @@ var JSONObj = { "bookname ":"VB BLACK BOOK", "price":500 };
 </html>
 ```
 
-尝试使用 IE 或者任何其他启用了 JavaScript 的浏览器打开这个页面，生成的结果如下所示：
+现在让我们尝试使用 IE 或者任何其他启用了 JavaScript 的浏览器打开这个页面，这会生成如下所示结果：
 
 ![json object](images/json_objects.jpg)
 
@@ -103,6 +103,6 @@ document.writeln("</tr></table>");
 </html>
 ```
 
-接下来尝试使用 IE 或者任意其他启用了 JavaScript 的浏览器打开这个页面，生成的结果如下所示：
+现在让我们尝试使用 IE 或者任意其他启用了 JavaScript 的浏览器打开这个页面，和会生成如下所示结果：
 
 ![json array object](images/json_array_objects.jpg)

@@ -1,6 +1,6 @@
 # 在 Python 中使用 JSON
 
-本教程将会教我们如何使用 Python 编程语言编码和解码 JSON。下面我们先为 JSON 准备好 Python 编程环境。
+本教程将会教我们如何使用 Python 编程语言编码和解码 JSON。让我们先来准备环境以便针对 JSON 进行 Python 编程。
 
 ## 环境
 

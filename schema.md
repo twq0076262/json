@@ -18,7 +18,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 				语言
 			</th>
 			<th>
-				库
+				程序库
 			</th>
 		</tr>
 		<tr>
@@ -192,7 +192,6 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 			</td>
 			<td>
 				给值设置的约束条件，表示可以接受的最小值。
-				value.
 			</td>
 		</tr>
 		<tr>
@@ -216,7 +215,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 				exclusiveMaximum
 			</td>
 			<td>
-				如果存在 "exclusiveMinimum" 并且具有布尔值 true，如果它严格意义上小于 "minimum" 的值则实例有效。
+				如果存在 "exclusiveMinimum" 并且具有布尔值 true，如果它严格意义上小于 "maximum" 的值则实例有效。
 			</td>
 		</tr>
 		<tr>
@@ -240,7 +239,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 				minLength
 			</td>
 			<td>
-				字符串实例字符的最小长度数值
+				字符串实例字符的最小长度数值。
 			</td>
 		</tr>
 		<tr>

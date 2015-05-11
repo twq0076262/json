@@ -1,6 +1,6 @@
 # 在 Java 中使用 JSON
 
-本教程将会教我们如何使用 Java 编程语言编码和解码 JSON。下面我们先为 JSON 准备好 Java 编程环境。
+本教程将会教我们如何使用 Java 编程语言编码和解码 JSON。让我们先来准备环境以便针对 JSON 进行 Java 编程。
 
 ## 环境
 
@@ -45,7 +45,7 @@ JSON.simple 实体映射从左侧到右侧为解码或解析，实体映射从�
 	</tbody>
 </table>
 
-解码时，_java.util.List_的默认具体类是_org.json.simple.JSONArray_，_java.util.Map_的默认具体类是_org.simple.JSONObject_。
+解码时，_java.util.List_ 的默认具体类是 _org.json.simple.JSONArray_，_java.util.Map_ 的默认具体类是 _org.simple.JSONObject_。
 
 ## 在 Java 中编码 JSON
 

@@ -2,10 +2,10 @@
 
 JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放标准，被设计用于可读的数据交换。约定使用 JSON 的程序员包括 C，C++，Java，Python，Perl 等等。
 
-- JSON 代表 JavaScript 对象表示法。
+- JSON 表示 JavaScript 对象表示法（JavaScript Object Notation）。
 - 这个格式由 Douglas Crockford 提出。
 - 被设计用于可读的数据交换。
-- 它已经被扩展到 JavaScript 脚本语言中。
+- 它是从 JavaScript 脚本语言中演变而来。
 - 文件名扩展是 __.json__。
 - JSON 的网络媒体类型是 __application/json__。
 - 统一标示符类型（Uniform Type Identifier）是 public.json。
@@ -83,10 +83,10 @@ JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放
 
 ## JSON 语法
 
-我们来快速浏览器一下 JSON 的基本语法。JSON 的语法基本上可以视为 JavaScript 语法的一个子集，包括以下内容：
+我们来快速浏览一下 JSON 的基本语法。JSON 的语法基本上可以视为 JavaScript 语法的一个子集，包括以下内容：
 
 - 数据使用名/值对表示。
-- 使用大括号保存对象，每个名称后面跟着一个 ':'（冒号），名/值对使用 , （逗号）分割。
+- 使用大括号保存对象，每个名称后面跟着一个 ':'（冒号），名/值对使用 ,（逗号）分割。
 - 使用方括号保存数组，数组值使用 ,（逗号）分割。
 
 下面是一个简单的示例：
@@ -109,14 +109,14 @@ JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放
 }
 ```
 
-JSON 支持一下两种数据结构：
+JSON 支持以下两种数据结构：
 
 - __名/值对集合：__ 这一数据结构由不同的编程语言支持。
 - __有序的值列表：__ 包括数组，列表，向量或序列等等。
 
 ## JSON 数据类型
 
-JSON 格式支持以下数据类型
+JSON 格式支持以下数据类型：
 
 <table>
 	<thead>
@@ -218,15 +218,15 @@ var obj = {marks: 97}
 		<tr><th>类型</th><th>描述</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>"</td><td> 双引号 </td></tr>
-		<tr><td>\</td><td> 反斜线 </td></tr>
-		<tr><td>/</td><td> 斜线</td></tr>
-		<tr><td>b</td><td> 推格符 </td></tr>
-		<tr><td>f</td><td> 换页符 </td></tr>
-		<tr><td>n</td><td> 换行符 </td></tr>
-		<tr><td>r</td><td> 回车符 </td></tr>
-		<tr><td>t</td><td> 水平制表符 </td></tr>
-		<tr><td>u</td><td> 四位十六进制数字 </td></tr>
+		<tr><td>"</td><td>双引号</td></tr>
+		<tr><td>\</td><td>反斜线</td></tr>
+		<tr><td>/</td><td>斜线</td></tr>
+		<tr><td>b</td><td>退格符</td></tr>
+		<tr><td>f</td><td>换页符</td></tr>
+		<tr><td>n</td><td>换行符</td></tr>
+		<tr><td>r</td><td>回车符</td></tr>
+		<tr><td>t</td><td>水平制表符</td></tr>
+		<tr><td>u</td><td>四位十六进制数字</td></tr>
 	</tbody>
 </table>
 
@@ -290,7 +290,7 @@ __示例：__
 
 ### 对象
 
-- 一个无序的名/值对集合。
+- 它是一个无序的名/值对集合。
 - 对象使用大括号闭合，以 '{' 开始，以 '}' 结尾。
 - 每个名称后面都跟随一个 ':'（冒号），名/值对使用 ,（逗号）分割。
 - 键名必须是字符串，并且不能同名。
@@ -423,7 +423,7 @@ var JSONObj = { "bookname ":"VB BLACK BOOK", "price":500 };
 </html>
 ```
 
-尝试使用 IE 或者任何其他启用了 JavaScript 的浏览器打开这个页面，生成的结果如下所示：
+现在让我们尝试使用 IE 或者任何其他启用了 JavaScript 的浏览器打开这个页面，这会生成如下所示结果：
 
 ![json object](images/json_objects.jpg)
 
@@ -483,7 +483,7 @@ document.writeln("</tr></table>");
 </html>
 ```
 
-接下来尝试使用 IE 或者任意其他启用了 JavaScript 的浏览器打开这个页面，生成的结果如下所示：
+现在让我们尝试使用 IE 或者任意其他启用了 JavaScript 的浏览器打开这个页面，和会生成如下所示结果：
 
 ![json array object](images/json_array_objects.jpg)
 
@@ -507,7 +507,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 				语言
 			</th>
 			<th>
-				库
+				程序库
 			</th>
 		</tr>
 		<tr>
@@ -681,7 +681,6 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 			</td>
 			<td>
 				给值设置的约束条件，表示可以接受的最小值。
-				value.
 			</td>
 		</tr>
 		<tr>
@@ -705,7 +704,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 				exclusiveMaximum
 			</td>
 			<td>
-				如果存在 "exclusiveMinimum" 并且具有布尔值 true，如果它严格意义上小于 "minimum" 的值则实例有效。
+				如果存在 "exclusiveMinimum" 并且具有布尔值 true，如果它严格意义上小于 "maximum" 的值则实例有效。
 			</td>
 		</tr>
 		<tr>
@@ -729,7 +728,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 				minLength
 			</td>
 			<td>
-				字符串实例字符的最小长度数值
+				字符串实例字符的最小长度数值。
 			</td>
 		</tr>
 		<tr>
@@ -762,7 +761,7 @@ JSON 模式是一种基于 JSON 格式定义 JSON 数据结构的规范。它被
 
 ## JSON 与 XML 对比
 
-JSON 和 XML 都是人类可读的格式并且与语言无关。在现实世界中它们都支持创建，读取和解码。我们可以基于以下因素来比较 JSON 和 XML：
+JSON 和 XML 都是人类可读的格式并且与语言无关。在现实环境中它们都支持创建，读取和解码。我们可以基于以下因素来比较 JSON 和 XML：
 
 ### 冗余度
 
@@ -802,7 +801,7 @@ __XML：__
 
 ## 在 PHP 中使用 JSON
 
-本教程将会教我们如何使用 PHP 编程语言编码和解码 JSON 对象。下面我们先为 JSON 准备好 PHP 编程环境。
+本教程将会教我们如何使用 PHP 编程语言编码和解码 JSON 对象。让我们先来准备环境以便针对 JSON 进行 PHP 编程。
 
 ### 环境
 
@@ -922,7 +921,7 @@ __参数：__
 
 __示例：__
 
-下面例子展示了 如何使用 PHP 解码 JSON 对象：
+下面例子展示了如何使用 PHP 解码 JSON 对象：
 
 ```
 <?php
@@ -955,11 +954,11 @@ array(5) {
 
 ## 在 Perl 中使用 JSON
 
-本教程将会教我们如何使用 Perl 编程语言编码和解码 JSON 对象。新哦啊面我们先为 JSON 准备 Perl 编程环境。
+本教程将会教我们如何使用 Perl 编程语言编码和解码 JSON 对象。让我们先来准备环境以便针对 JSON 进行 Perl 编程。
 
 ### 环境
 
-在开始使用 Perl 编码和解码 JSON 之前，我们需要安装 JSON 模块，可以从 CPAN 中获取。下载 JSON-2.53.tar.gz 或者其他任意最新版本之后遵循以下步骤：
+在开始使用 Perl 编码和解码 JSON 之前，我们需要安装 JSON 模块，可以从 CPAN 中获取。下载 JSON-2.53.tar.gz 或者其他任意最新版本之后请按照下列步骤操作：
 
 ```
 $tar xvfz JSON-2.53.tar.gz
@@ -1107,7 +1106,7 @@ $VAR1 = {
 
 ## 在 Python 中使用 JSON
 
-本教程将会教我们如何使用 Python 编程语言编码和解码 JSON。下面我们先为 JSON 准备好 Python 编程环境。
+本教程将会教我们如何使用 Python 编程语言编码和解码 JSON。让我们先来准备环境以便针对 JSON 进行 Python 编程。
 
 ### 环境
 
@@ -1202,11 +1201,11 @@ print text
 
 ## 在 Ruby 中使用 JSON
 
-本教程将会教我们如何使用 Ruby 编程语言编码和解码 JSON。下面我们先为 JSON 准备好 Ruby 编程环境。
+本教程将会教我们如何使用 Ruby 编程语言编码和解码 JSON。让我们先来准备环境以便针对 JSON 进行 Ruby 编程。
 
 ### 环境
 
-在我们使用 Ruby 编码和解码 JSON 之前，我们需要安装一个可用于 Ruby 的 JSON 模块。你可能需要安装 Ruby gem，如果你使用的是最新版的 Ruby，那么你必须在你的机器上安装 gem，安装好 gem 之后遵循下面这个步骤：
+在我们使用 Ruby 编码和解码 JSON 之前，我们需要安装一个可用于 Ruby 的 JSON 模块。你可能需要安装 Ruby gem，如果你使用的是最新版的 Ruby，那么你必须在你的机器上安装 gem，安装好 gem 之后请按照下面的步骤操作：
 
 ```
 $gem install json
@@ -1272,7 +1271,7 @@ pp obj
 
 ## 在 Java 中使用 JSON
 
-本教程将会教我们如何使用 Java 编程语言编码和解码 JSON。下面我们先为 JSON 准备好 Java 编程环境。
+本教程将会教我们如何使用 Java 编程语言编码和解码 JSON。让我们先来准备环境以便针对 JSON 进行 Java 编程。
 
 ### 环境
 
@@ -1317,7 +1316,7 @@ JSON.simple 实体映射从左侧到右侧为解码或解析，实体映射从�
 	</tbody>
 </table>
 
-解码时，_java.util.List_的默认具体类是_org.json.simple.JSONArray_，_java.util.Map_的默认具体类是_org.simple.JSONObject_。
+解码时，_java.util.List_ 的默认具体类是 _org.json.simple.JSONArray_，_java.util.Map_ 的默认具体类是 _org.simple.JSONObject_。
 
 ### 在 Java 中编码 JSON
 
@@ -1351,6 +1350,7 @@ class JsonEncodeDemo
 下面是另一个示例，使用 Java JSONObject 展示了 JSON 对象流：
 
 ```
+java
 import org.json.simple.JSONObject;
 class JsonEncodeDemo
 {
@@ -1437,7 +1437,7 @@ Field "1"
 
 ## JSON 与 Ajax
 
-AJAX 就是异步 JavaScript 和 XML，它是一组在客户端创建异步 Web 应用程序的相互关联的 Web 开发技术。遵循 AJAX 模型，Web 应用程序以异步分方式发送数据和从服务器上接受获取数据，从而不影响现有页面的显示行为。
+AJAX 就是异步 JavaScript 和 XML，它是一组用于客户端的相互关联的 Web 开发技术，以创建异步 Web 应用程序。遵循 AJAX 模型，Web 应用程序可以以异步的方式发送数据以及从服务器上检索数据，而不影响现有页面的显示行为。
 
 许多开发人员都在客户端和服务器之间使用 JSON 传递 AJAX 更新。实时更新体育成绩的站点就可以视为一个 AJAX 例子。如果这些成绩要更新到站点上，那么必须要把它们存储到服务器上便于需要时网页能取回这些成绩。这里我们可以使用 JSON 格式的数据。
 
@@ -1514,6 +1514,6 @@ function loadJSON()
 
 ![ajax in action](images/ajax-in-action1.png)
 
-当我们点击 __Update Detail__ 按钮式，应该会得到如下所示的结果，我们可以自己尝试 JSON 和 AJAX，提供自己的浏览器支持的 JavaScript。
+当我们点击 __Update Detail__ 按钮时，应该会得到如下所示的结果，你也可以自己尝试 JSON 和 AJAX，提供你自己的浏览器支持的 JavaScript。
 
 ![ajax in action](images/ajax-in-action2.png)

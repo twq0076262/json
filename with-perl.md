@@ -1,10 +1,10 @@
 # 在 Perl 中使用 JSON
 
-本教程将会教我们如何使用 Perl 编程语言编码和解码 JSON 对象。新哦啊面我们先为 JSON 准备 Perl 编程环境。
+本教程将会教我们如何使用 Perl 编程语言编码和解码 JSON 对象。让我们先来准备环境以便针对 JSON 进行 Perl 编程。
 
 ## 环境
 
-在开始使用 Perl 编码和解码 JSON 之前，我们需要安装 JSON 模块，可以从 CPAN 中获取。下载 JSON-2.53.tar.gz 或者其他任意最新版本之后遵循以下步骤：
+在开始使用 Perl 编码和解码 JSON 之前，我们需要安装 JSON 模块，可以从 CPAN 中获取。下载 JSON-2.53.tar.gz 或者其他任意最新版本之后请按照下列步骤操作：
 
 ```
 $tar xvfz JSON-2.53.tar.gz

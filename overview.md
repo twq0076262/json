@@ -2,7 +2,7 @@
 
 JSON 或者 JavaScript 对象表示法是一种轻量级的基于文本的开放标准，被设计用于可读的数据交换。约定使用 JSON 的程序员包括 C，C++，Java，Python，Perl 等等。
 
-- JSON 是 JavaScript Object Notation 的缩写。
+- JSON 表示 JavaScript 对象表示法（JavaScript Object Notation）。
 - 这个格式由 Douglas Crockford 提出。
 - 被设计用于可读的数据交换。
 - 它是从 JavaScript 脚本语言中演变而来。

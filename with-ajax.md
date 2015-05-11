@@ -1,6 +1,6 @@
 # JSON 与 Ajax
 
-AJAX 就是异步 JavaScript 和 XML，它是一组在客户端创建异步 Web 应用程序的相互关联的 Web 开发技术。遵循 AJAX 模型，Web 应用程序以异步分方式发送数据和从服务器上接受获取数据，从而不影响现有页面的显示行为。
+AJAX 就是异步 JavaScript 和 XML，它是一组用于客户端的相互关联的 Web 开发技术，以创建异步 Web 应用程序。遵循 AJAX 模型，Web 应用程序可以以异步的方式发送数据以及从服务器上检索数据，而不影响现有页面的显示行为。
 
 许多开发人员都在客户端和服务器之间使用 JSON 传递 AJAX 更新。实时更新体育成绩的站点就可以视为一个 AJAX 例子。如果这些成绩要更新到站点上，那么必须要把它们存储到服务器上便于需要时网页能取回这些成绩。这里我们可以使用 JSON 格式的数据。
 
@@ -77,6 +77,6 @@ function loadJSON()
 
 ![ajax in action](images/ajax-in-action1.png)
 
-当我们点击 __Update Detail__ 按钮式，应该会得到如下所示的结果，我们可以自己尝试 JSON 和 AJAX，提供自己的浏览器支持的 JavaScript。
+当我们点击 __Update Detail__ 按钮时，应该会得到如下所示的结果，你也可以自己尝试 JSON 和 AJAX，提供你自己的浏览器支持的 JavaScript。
 
 ![ajax in action](images/ajax-in-action2.png)
